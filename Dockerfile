@@ -1,6 +1,5 @@
 FROM jenkins/ssh-slave
 MAINTAINER navkkrnair@gmail.com
-USER root
 # Install Git
 RUN apt-get update && apt-get -y install git
 # Install the latest Docker CE binaries
